@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet"/>
+    <title>Document</title>
+</head>
+<body style="background-color: #dadada;">
+      <header>
+        <div id="logo">
+          <a href="#"><img src="/images/logo.png" alt="img"></a>
+        </div>
+        <div id="nav-container">
+          <nav>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About</a></li>    
+              <li><a href="#">Contact us</a></li>
+            </ul>
+          </nav>
+       </div>
+     </header>
+     <blog-modal></blog-modal>
+     <!-- Blog modal template -->
+     <template id="modal-template">
+      <link rel="stylesheet" href="./styles/blog-modal.css">
+      <div class="wrapper">
+        <div class="overlay">
+         <div class="modal">
+           <div class="title"></div>
+           <div class="content"></div>
+           <div class="briefdescription"></div>
+           <p class="close">X</p>
+         </div>
+        </div>
+      </div>
+     </template>
+     <!-- Blog modal template -->
+      <div class="main-div" id="main-div">
+        
+      </div> 
+    <div id="bottom">
+      <button id="bot_open" class="btn btn-rounded btn-danger" onclick="del()" >Delete</button>
+    </div>
+    <div id="bottom-left">
+        <button id="open-popup-btn" class="btn btn-success btn-rounded">Insert</button>
+    </div>
+    <div class="floating-popup" id="floating-popup">
+        <span class="popup-close" id="popup-close">&times;</span>
+        <form id="inputForm">
+          <label for="imageInput">Image:</label>
+          <input type="file" id="imageInput"><br><br>
+        
+          <label for="titleInput">Title:</label><br>
+          <input type="text" id="titleInput" ><br>
+        
+          <label for="descriptionInput">Description:</label><br>
+          <input type="text" id="descriptionInput"><br><br>
+
+          <label for="briefdescriptionInput">Brief Description:</label><br>
+          <input type="text" id="briefdescriptionInput"><br><br>
+          <button type="submit">Submit</button>      
+    </div>
+    <script> //script for when the web component is clicked ,it opens up the blog modal by setting some attributes
+    document.body.addEventListener('click', function (e) {
+    if (e.target && e.target.matches('product-card')) {
+        let blogModal= document.querySelector('blog-modal');
+        blogModal.setAttribute('open',true);
+        blogModal.setAttribute('title',e.target.getAttribute('title'));
+        blogModal.setAttribute('content',e.target.getAttribute('description'));
+        blogModal.setAttribute('briefdescription',e.target.getAttribute('briefdescription'));
+      }
+    });
+    </script>
+    <!-- script links -->
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="blog-modal.js"></script>
+    <script src="popup.js"></script>
+    <script src="./btn.js"></script>
+    <script src="./test.js"></script>
+    <!-- script links -->
+    </body>
+</html>

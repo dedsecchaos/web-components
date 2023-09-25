@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4e4e4e;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;  
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+  } 
+  
+  #logo img {
+    
+    height: 40px;
+    border-radius: 5px; 
+  } 
+  
+  #nav-container {
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #c8cdf5;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #content {
+    text-align: center;
+  }
+  .main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+  }
+  #bottom button{
+      position: fixed;
+      right: 6%;
+      bottom: 6%;
+      z-index: 1000;
+      transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      filter: progid: dximagetransform.microsoft.basicimage(rotation=3);
+      text-align: center;
+      text-decoration: none;
+    }
+    #bottom-left button{
+      position: fixed;
+      right: 12%;
+      bottom: 6%;
+      text-decoration: none;
+      margin-right: 30px;
+    }
+    .fldiv{
+      position: relative;
+      margin: 20px auto;
+    }
+    .box{
+      width: 30%;
+      padding: 10px;
+      border-radius: 10px;
+      background-color: #97a3d6;
+      margin: 0 auto;
+      text-align: center;
+      margin-top: 100;
+    }
+    .new{
+     margin-left: 55px;
+    }
+   .floating-popup {
+     display: none;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 300px;
+     background-color: #c8cdf5;
+     padding: 20px;
+     border-radius: 5px;
+     box-shadow: 10px 12px 20px rgba(0, 0, 0, 0.2);
+     z-index: 1000;   
+    }
+    .popup-close {
+            cursor: pointer;
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
