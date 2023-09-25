@@ -37,4 +37,4 @@ We welcome contributions from the community! If you'd like to contribute to this
 
 # Contact
 
-For support or inquiries, please email at pawanrgowda7@gmail.co
+For support or inquiries, please email at pawanrgowda7@gmail.com
