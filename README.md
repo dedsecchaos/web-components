@@ -31,6 +31,23 @@ Also between two different web components.This project has functionalities like 
 This project includes two different web components, one of the web components functionality is to get attributes from the web component clicked on the web application and display its particular attributes in a "modal box". This helps us in understanding how to communication between two different web components takes place.
 Web components are a set of web platform APIs that allow you to create new custom, reusable, encapsulated HTML tags to use in web pages and web apps. Custom components and widgets build on the Web Component standards, will work across modern browsers, and can be used with any JavaScript library or framework that works with HTML.
 
+# Specifications
+***
+Web components are based on four main specifications:
+
+# Custom Elements
+The Custom Elements specification lays the foundation for designing and using new types of DOM elements.
+
+# Shadow DOM
+The shadow DOM specification defines how to use encapsulated style and markup in web components.
+
+# ES Modules
+The ES Modules specification defines the inclusion and reuse of JS documents in a standards based, modular, performant way.
+
+# HTML Template
+The HTML template element specification defines how to declare fragments of markup that go unused at page load, but can be instantiated later on at runtime.
+
+---
 # Contributing
 
 We welcome contributions from the community! If you'd like to contribute to this project, please get in contact.
