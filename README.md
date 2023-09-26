@@ -21,7 +21,7 @@ Features
 
 # Getting Started
 
-#Installation
+# Installation
 
 Just load up the code on VScode or any editor, and launch the web application on the browser (go live on vs code).
 
