@@ -8,6 +8,7 @@ Introduction
 This is a collection of reusable web components that can be easily integrated into your web projects. Web components are a set of web platform APIs that allow you to create custom, reusable, encapsulated HTML tags to use in web pages and web apps.
 
 Features
+
 🚀 Easy to use: Simply import the component and use it in your HTML.
 
 🌐 Cross-browser compatibility: Works in all modern browsers.
