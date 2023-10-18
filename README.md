@@ -27,15 +27,15 @@ Just load up the code on VScode or any editor, and launch the web application on
 
 # About the project:
 
-This prototype project serves as a practical exploration of communication channels between a web application and web components, as well as among distinct web components. It encompasses several pivotal features:
+This prototype project stands as a comprehensive exploration of communication methods between a web application and web components, as well as inter-component communication. It encompasses a wide array of sophisticated features, shedding light on the potential of modern web development:
 
-Dynamic Web Component Integration: The project empowers developers to dynamically insert web components into the web application. This dynamic insertion capability is a cornerstone for creating flexible and interactive user interfaces.
+Dynamic Web Component Integration: One of the project's core functionalities lies in its dynamic web component integration. This innovative capability enables developers to seamlessly inject web components into the web application at runtime. This dynamic insertion empowers designers to create highly interactive and adaptable user interfaces, responding to user needs in real-time.
 
-User-Defined Attributes: Users have the ability to input and associate attributes with web components. This feature grants users the freedom to personalize these components, enhancing their utility and adaptability.
+User-Defined Attributes: At the heart of this project is the ability for users to define and assign attributes to web components. This feature allows for a high degree of personalization, ensuring that these components can be tailored to specific requirements. Users can configure attributes that influence the appearance, behavior, and functionality of these components, offering a deeply customized user experience.
 
-Deletion Option: To maintain a responsive and adaptable web application, a delete option is available. It enables the detachment of web components from the application, allowing for streamlined management.
+Deletion Option: To maintain the application's agility and flexibility, a deletion option is provided. This feature permits the removal or disconnection of web components from the application. It's a crucial component management tool, offering developers a way to streamline their application by removing unnecessary or outdated components, ensuring optimal performance and maintainability.
 
-This project showcases two unique web components. One of them serves a crucial function: it retrieves attributes from a clicked web component within the web application. Subsequently, it presents these attributes in a modal box. This powerful feature exemplifies how communication can seamlessly occur between disparate web components, enhancing the user experience and expanding the capabilities of web applications.
+Inter-Component Communication: Beyond just web application to component interaction, this project showcases the capabilities of inter-component communication. It introduces two distinct web components, one of which plays a vital role in this communication ecosystem. When a web component is clicked within the application, this specialized component retrieves and displays the attributes of the selected component in a modal box. This illustrates the seamless communication between different web components, opening the door to a plethora of possibilities for building modular and collaborative web applications.
 
 In essence, web components constitute a suite of web platform APIs. These APIs provide developers with the tools to craft custom, reusable, and encapsulated HTML tags. These tags are designed to seamlessly integrate into web pages and applications. They rigorously adhere to the Web Component standards, ensuring cross-browser compatibility. Furthermore, they are versatile and can be seamlessly incorporated into any JavaScript library or framework that operates with HTML, making them a valuable asset for enhancing web-based interfaces.
 
